@@ -9759,6 +9759,8 @@ inline bool Enumerator_MoveNext_m369445A382BCA8EAD027F6783A2F8CDB27A43D2C (Enume
 }
 // System.Void System.Text.StringBuilder::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D (StringBuilder_t* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_mE00D17D79AD74B307F913BBF296A36115548DB6D (int32_t ___sceneBuildIndex0, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Camera::get_stereoEnabled()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Camera_get_stereoEnabled_m33F6247051D68E8FFEF9C0EC34C6F4B4B53FC8AF (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Behaviour::set_enabled(System.Boolean)
@@ -13549,8 +13551,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwitchPointCloudVisualizationMode__ctor_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void SceneControl::ExteriorScene(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneControl_ExteriorScene_m3B1E927DA78265585B2D00E668D65848534D71AA (SceneControl_tB5F69E118FF00E7DD7FA6A3BBDD662CF9640F039* __this, String_t* ___exteriorScene0, const RuntimeMethod* method) 
+// System.Void SceneControl::ExteriorScene()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneControl_ExteriorScene_mF21F7F35ACAB5672B491C19A355E28EB71E13B66 (SceneControl_tB5F69E118FF00E7DD7FA6A3BBDD662CF9640F039* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -13559,16 +13561,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneControl_ExteriorScene_m3B1E927DA782
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// SceneManager.LoadScene(exteriorScene);
-		String_t* L_0 = ___exteriorScene0;
+		// SceneManager.LoadScene(1);
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
-		SceneManager_LoadScene_m7237839058F581BFCA0A79BB96F6F931469E43CF(L_0, NULL);
+		SceneManager_LoadScene_mE00D17D79AD74B307F913BBF296A36115548DB6D(1, NULL);
 		// }
 		return;
 	}
 }
-// System.Void SceneControl::InteriorScene(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneControl_InteriorScene_m67CDB3C5AD718CA9C310924D7036A552462E8EE1 (SceneControl_tB5F69E118FF00E7DD7FA6A3BBDD662CF9640F039* __this, String_t* ___interiorScene0, const RuntimeMethod* method) 
+// System.Void SceneControl::InteriorScene()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneControl_InteriorScene_m64143CF6A853355A7826AE453DEB0E6FFBACB3D4 (SceneControl_tB5F69E118FF00E7DD7FA6A3BBDD662CF9640F039* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -13577,10 +13578,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneControl_InteriorScene_m67CDB3C5AD71
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// SceneManager.LoadScene(interiorScene);
-		String_t* L_0 = ___interiorScene0;
+		// SceneManager.LoadScene(0);
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
-		SceneManager_LoadScene_m7237839058F581BFCA0A79BB96F6F931469E43CF(L_0, NULL);
+		SceneManager_LoadScene_mE00D17D79AD74B307F913BBF296A36115548DB6D(0, NULL);
 		// }
 		return;
 	}
