@@ -13561,9 +13561,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneControl_ExteriorScene_mF21F7F35ACAB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// SceneManager.LoadScene(1);
+		// SceneManager.LoadScene(2);
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
-		SceneManager_LoadScene_mE00D17D79AD74B307F913BBF296A36115548DB6D(1, NULL);
+		SceneManager_LoadScene_mE00D17D79AD74B307F913BBF296A36115548DB6D(2, NULL);
 		// }
 		return;
 	}
@@ -13578,9 +13578,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneControl_InteriorScene_m64143CF6A853
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// SceneManager.LoadScene(0);
+		// SceneManager.LoadScene(1);
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
-		SceneManager_LoadScene_mE00D17D79AD74B307F913BBF296A36115548DB6D(0, NULL);
+		SceneManager_LoadScene_mE00D17D79AD74B307F913BBF296A36115548DB6D(1, NULL);
 		// }
 		return;
 	}
@@ -13595,9 +13595,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneControl_StartScene_m450EF46514C2C33
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// SceneManager.LoadScene(2);
+		// SceneManager.LoadScene(0);
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
-		SceneManager_LoadScene_mE00D17D79AD74B307F913BBF296A36115548DB6D(2, NULL);
+		SceneManager_LoadScene_mE00D17D79AD74B307F913BBF296A36115548DB6D(0, NULL);
 		// }
 		return;
 	}
