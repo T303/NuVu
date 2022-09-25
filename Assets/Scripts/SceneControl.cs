@@ -14,4 +14,14 @@ public class SceneControl : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+
+    public void StartScene()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    public void ExitScene()
+    {
+        Application.Quit();
+    }
 }
