@@ -13561,9 +13561,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneControl_ExteriorScene_mF21F7F35ACAB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// SceneManager.LoadScene(1);
+		// SceneManager.LoadScene(2);
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
-		SceneManager_LoadScene_mE00D17D79AD74B307F913BBF296A36115548DB6D(1, NULL);
+		SceneManager_LoadScene_mE00D17D79AD74B307F913BBF296A36115548DB6D(2, NULL);
 		// }
 		return;
 	}
@@ -13578,9 +13578,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneControl_InteriorScene_m64143CF6A853
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		// SceneManager.LoadScene(1);
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mE00D17D79AD74B307F913BBF296A36115548DB6D(1, NULL);
+		// }
+		return;
+	}
+}
+// System.Void SceneControl::StartScene()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneControl_StartScene_m450EF46514C2C3334E64A7225DBD8A0589367CAF (SceneControl_tB5F69E118FF00E7DD7FA6A3BBDD662CF9640F039* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
 		// SceneManager.LoadScene(0);
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mE00D17D79AD74B307F913BBF296A36115548DB6D(0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void SceneControl::ExitScene()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneControl_ExitScene_mAD9323220CBEA635CC5C06CE90D0AC7D1A648A26 (SceneControl_tB5F69E118FF00E7DD7FA6A3BBDD662CF9640F039* __this, const RuntimeMethod* method) 
+{
+	{
+		// Application.Quit();
+		Application_Quit_m965C6D4CA85A24DD95B347D22837074F19C58134(NULL);
 		// }
 		return;
 	}
