@@ -5,13 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class SceneControl : MonoBehaviour
 {
-    public void ExteriorScene(string exteriorScene)
+    public void ExteriorScene()
     {
-        SceneManager.LoadScene(exteriorScene);
+        SceneManager.LoadScene(1);
     }
 
-    public void InteriorScene(string interiorScene)
+    public void InteriorScene()
     {
-        SceneManager.LoadScene(interiorScene);
+        SceneManager.LoadScene(0);
     }
 }
